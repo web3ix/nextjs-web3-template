@@ -1,0 +1,57 @@
+{
+	"name": "nextjs-web3-template",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@badrap/bar-of-progress": "^0.2.2",
+		"@rainbow-me/rainbowkit": "^2.2.0",
+		"@solana/spl-token": "^0.4.9",
+		"@solana/wallet-adapter-base": "0.9.23",
+		"@solana/wallet-adapter-coinbase": "^0.1.19",
+		"@solana/wallet-adapter-glow": "^0.1.18",
+		"@solana/wallet-adapter-phantom": "^0.9.24",
+		"@solana/wallet-adapter-react": "^0.15.35",
+		"@solana/wallet-adapter-react-ui": "^0.9.35",
+		"@solana/wallet-adapter-solflare": "0.6.28",
+		"@solana/wallet-adapter-walletconnect": "^0.1.16",
+		"@solana/web3.js": "1.95.4",
+		"@tanstack/react-query": "^5.59.15",
+		"@ton/core": "^0.59.0",
+		"@ton/crypto": "^3.3.0",
+		"@ton/ton": "^15.1.0",
+		"@tonconnect/ui-react": "^2.0.9",
+		"bn.js": "^5.2.1",
+		"ethers": "6.13.4",
+		"js-sha3": "^0.9.3",
+		"next": "14.2.16",
+		"react": "^18",
+		"react-dom": "^18",
+		"starknet": "^6.11.0",
+		"starknetkit": "^2.3.3",
+		"ton": "^13.9.0",
+		"viem": "^2.21.33",
+		"wagmi": "^2.12.24",
+		"web-encoding": "^1.1.5",
+		"zksync": "0.13.1",
+		"zustand": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^9",
+		"eslint-config-next": "14.2.16",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.14",
+		"typescript": "^5"
+	},
+	"engines": {
+		"node": ">=20.9.0"
+	}
+}
